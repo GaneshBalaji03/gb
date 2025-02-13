@@ -1,38 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="./styles.css">
-        
-    </head> 
-    <body>
-        <div class="container">
-            <div >
-                <h1 class = "header_text">Oyyyy Sorryyy raaaa..</h1>
-                <h1 class = "header_text">Don't be mad</h1>
-                <h1 class = "header_text">Let's start new & be us again</h1>
-                <h1 class = "header_text">have a chance together</h1>
-                <h1 class = "header_text">will you be the panda again i miss you dey?</h1>
-            </div>
-            <div class="gif_container">
-                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute animated illustration">
-            </div>
-            <div class = "buttons">
-                <button class="btn" id = "yesButton" onclick="nextPage()">Yes</button>
-                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">No</button>
-                <script>
-                    function nextPage() {
-                        window.location.href = "yes.html";
-                    }
-                    
-                    function moveButton() {
-                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
-                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
-                        document.getElementById('noButton').style.left = `${x}px`;
-                        document.getElementById('noButton').style.top = `${y}px`;
-                    }
-                </script> 
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+<div class="happy-valentines">
+    <div class="valentines-day-card">
+      <div class="clouds"></div>
+      <div class="hearts">
+        <div class="heartOne">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
         </div>
-       
-    </body> 
+        <div class="heartTwo">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+            <div class="heartThree">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+         <div class="heartFour">
+          <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+         <div class="heartFive">
+         <div class="left-side"></div>
+          <div class="right-side"></div>
+        </div>
+      </div>
+      <div class="text"><span>Happy Valentine's</br> Day!</div>
+    </div>
+    
+    </div>
+    <audio autoplay style="margin-left: 50px; margin-top: 5
+    0px;" >
+      <source src="Urike Urike.mp3" type="audio/wav">
+      Your browser does not support the audio element.
+  </audio>
+  
+  <div class="gif_container">
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDdtZ2JiZDR0a3lvMWF4OG8yc3p6Ymdvd3g2d245amdveDhyYmx6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpf9g3y/giphy.gif" alt="Cute animated illustration">
+  </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class = "buttons">
+    <button class="btn" id = "yesButton" onclick="nextPage()">Oyy etu..</button>
+    
+    <script>
+        function nextPage() {
+            window.location.href = "index2.html";
+        }
+        </script>
+</body>
 </html>
